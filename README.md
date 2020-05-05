@@ -1,3 +1,9 @@
+| | | |
+|:-------------------------:|:-------------------------:|:-------------------------:|
+|<img width="1024" alt="waves 1" src="https://github.com/d-pettersson/CODE-SE-15-Advanced-Machine-Learning/blob/master/output/results_random/random_1.png"> |  <img width="1024" alt="waves 10" src="https://github.com/d-pettersson/CODE-SE-15-Advanced-Machine-Learning/blob/master/output/results_random/random_10.png">|<img width="1024" alt="waves 11" src="https://github.com/d-pettersson/CODE-SE-15-Advanced-Machine-Learning/blob/master/output/results_random/random_11.png">|
+|<img width="1024" alt="waves 14" src="https://github.com/d-pettersson/CODE-SE-15-Advanced-Machine-Learning/blob/master/output/results_random/random_14.png">  |  <img width="1024" alt="waves 2" src="https://github.com/d-pettersson/CODE-SE-15-Advanced-Machine-Learning/blob/master/output/results_random/random_2.png">|<img width="1024" alt="waves 3" src="https://github.com/d-pettersson/CODE-SE-15-Advanced-Machine-Learning/blob/master/output/results_random/random_3.png">|
+|<img width="1024" alt="waves 4" src="https://github.com/d-pettersson/CODE-SE-15-Advanced-Machine-Learning/blob/master/output/results_random/random_4.png">  |  <img width="1024" alt="waves 5" src="https://github.com/d-pettersson/CODE-SE-15-Advanced-Machine-Learning/blob/master/output/results_random/random_5.png">|<img width="1024" alt="waves 6" src="https://github.com/d-pettersson/CODE-SE-15-Advanced-Machine-Learning/blob/master/output/results_random/random_6.png">|
+
 # Exploration in Deep Learning algorithms
 
 This repository contains the semester work for the SE15 Advanced Machine Learning Module.
@@ -7,12 +13,6 @@ This research is a preliminary work for an upcoming immersive interactive instal
 These images sequences can then be converted to videos.
 
 It currently is able to generate random images, random image sequences and keyframed image sequences.
-
-| | | |
-|:-------------------------:|:-------------------------:|:-------------------------:|
-|<img width="1024" alt="waves 1" src="https://github.com/d-pettersson/CODE-SE-15-Advanced-Machine-Learning/blob/master/output/results_random/random_1.png"> |  <img width="1024" alt="waves 10" src="https://github.com/d-pettersson/CODE-SE-15-Advanced-Machine-Learning/blob/master/output/results_random/random_10.png">|<img width="1024" alt="waves 11" src="https://github.com/d-pettersson/CODE-SE-15-Advanced-Machine-Learning/blob/master/output/results_random/random_11.png">|
-|<img width="1024" alt="waves 14" src="https://github.com/d-pettersson/CODE-SE-15-Advanced-Machine-Learning/blob/master/output/results_random/random_14.png">  |  <img width="1024" alt="waves 2" src="https://github.com/d-pettersson/CODE-SE-15-Advanced-Machine-Learning/blob/master/output/results_random/random_2.png">|<img width="1024" alt="waves 3" src="https://github.com/d-pettersson/CODE-SE-15-Advanced-Machine-Learning/blob/master/output/results_random/random_3.png">|
-|<img width="1024" alt="waves 4" src="https://github.com/d-pettersson/CODE-SE-15-Advanced-Machine-Learning/blob/master/output/results_random/random_4.png">  |  <img width="1024" alt="waves 5" src="https://github.com/d-pettersson/CODE-SE-15-Advanced-Machine-Learning/blob/master/output/results_random/random_5.png">|<img width="1024" alt="waves 6" src="https://github.com/d-pettersson/CODE-SE-15-Advanced-Machine-Learning/blob/master/output/results_random/random_6.png">|
 
 ## Installation
 
