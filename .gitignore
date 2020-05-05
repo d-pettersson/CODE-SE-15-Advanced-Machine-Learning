@@ -47,4 +47,4 @@ geckodriver.log
 *.pkl
 
 // ignore stylegan2 repo
-src/stylegan2
+src/stylegan2/
