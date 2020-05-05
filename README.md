@@ -44,9 +44,27 @@ ADD IMAGES
 ``https://drive.google.com/open?id=1lusgQA4jvaf_GSWQft2erH0c6t_qvEzi``
 
 ## Usage
+### Training
+The training is divided between the usage of [RunwayML](https://runwayml.com/) and Google Colab. The following steps highlight the process used for the training of this particular network:
+1. Download the RunwayML application and create a user account
+2. Prepare the dataset (<i>video selection, cropping and image sequence generation</i>)
+3. Select the StyleGAN2 model in RunwayML and upload the created dataset
+4. Train the model (<i>3000 steps</i>)
+5. Download the trained weights
+6. Upload the weights on Google drive
+7. Launch the [Google Colab notebook](https://colab.research.google.com/drive/1xYubx87KiyljnVfsKCd0hsxi6KKgNjhL)
+8. Follow the steps outlined in the Colab Notebook
+9. Further training weights will be uploaded to Google drive, ready to be used in the image generation process
 
-## Support
+### Generation
+The main notebook can be used to synthetize various sequences of images. Either random individual images, random keyframed sequences and keyframed sequences with pre-defined keyframes. This can be found under the <b>'StyleGAN2'</b> section.
 
 ## Roadmap
+This being the first explorative part of the installation, a roadmap for the following steps is defined here:
+- Creating a 'video editing' workflow for the simple generation and editing of consecutive image sequences ([<i>inspired by Memo Atken's article on Latent Spaces Exploration)</i>](https://medium.com/@memoakten/deep-meditations-meaningful-exploration-of-ones-inner-self-576aab2f3894)
+- Creating another ML Model trained on categorizing the images that the first network generates
+- Generating interactive reactions based on the categories detected
+- Adding human interactions via the means of biofeedback sensors feeding back into the Installation
+- Additional generative soundscape through the means of Machine Learning and/or traditional generative techniques
 
 ## Project status
