@@ -45,3 +45,6 @@ geckodriver.log
 
 // ignore pkl - network snapshot files
 *.pkl
+
+// ignore stylegan2 repo
+src/stylegan2
