@@ -64,11 +64,13 @@ The training is divided between the usage of [RunwayML](https://runwayml.com/) a
 The metrics are available in the above mentioned Google Colab notebook, and allows us to analyse the fidelity of the generated images.
 
 There are three different metrics currently available in the notebook:
-1. <b>Frechet Inception Distance</b> - For the evaluation of the performance of GANs at image generation, we introduce the "Fréchet Inception Distance" (FID) which captures the similarity of generated images to real ones better than the Inception Score.
-2. <b>Perceptual Path Length</b> -
-3. <b>Precision and Recall</b> -
+- The first one is the <b>FID - or Fréchet Inception Distance (FID score)</b>. It is used to determine visual similarity between two datasets of images. The FID score for this model shows us the disparity between our dataset and 'reality' represented by the 'inception_v3' model. We can assume that the score would lower with an augmentation of training time. The current score is <b>23.1470</b>.
 
-For further metrics, Nvidia provides additional evaluation metrics: [link](https://github.com/NVlabs/stylegan2#evaluation-metrics)
+- The second metric is the <b>PPL or Perceptual Path Length</b>. Meaning that it measures the difference between consecutive images when interpolating between two random inputs. The lower the value, the more perceptually smooth the latent space is. The current score is <b>71.5810</b>.
+
+- The last metric is <b>Precision and Recall</b>. Precision is the ability of a classification model to identify only the relevant data points. Recall is the ability of a model to find all the relevant cases within a dataset. The current scores are
+
+For further analysis, Nvidia provides additional evaluation metrics: [link](https://github.com/NVlabs/stylegan2#evaluation-metrics)
 
 ### Generation
 The main notebook can be used to synthetize various sequences of images. Either random individual images, random keyframed sequences and keyframed sequences with pre-defined keyframes. This can be found under the <b>'StyleGAN2'</b> section.
@@ -82,3 +84,4 @@ This being the first explorative part of the installation, a roadmap for the fol
 - Additional generative soundscape through the means of Machine Learning and/or traditional generative techniques
 
 ## Project status
+The project is a work-in-progress but is presented in this repository in its final form for the evaluation in the SE15 Module frame.
