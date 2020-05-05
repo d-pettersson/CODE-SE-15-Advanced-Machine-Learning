@@ -60,6 +60,14 @@ The training is divided between the usage of [RunwayML](https://runwayml.com/) a
 8. Follow the steps outlined in the Colab Notebook
 9. Further training weights will be uploaded to Google drive, ready to be used in the image generation process
 
+### Metrics
+The metrics are available in the above mentioned Google Colab notebook, and allows us to analyse the fidelity of the generated images.
+
+There are three different metrics currently in the notebook:
+1. <b>Frechet Inception Distance</b> - For the evaluation of the performance of GANs at image generation, we introduce the "Fréchet Inception Distance" (FID) which captures the similarity of generated images to real ones better than the Inception Score.
+2. <b>Perceptual Path Length</b> -
+3. <b>Precision and Recall</b> -
+
 ### Generation
 The main notebook can be used to synthetize various sequences of images. Either random individual images, random keyframed sequences and keyframed sequences with pre-defined keyframes. This can be found under the <b>'StyleGAN2'</b> section.
 
