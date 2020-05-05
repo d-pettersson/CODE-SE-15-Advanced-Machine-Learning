@@ -8,7 +8,11 @@ These images sequences can then be converted to videos.
 
 It currently is able to generate random images, random image sequences and keyframed image sequences.
 
-ADD IMAGES
+| | | |
+|:-------------------------:|:-------------------------:|:-------------------------:|
+|<img width="1024" alt="waves 1" src="https://github.com/d-pettersson/CODE-SE-15-Advanced-Machine-Learning/blob/master/output/results_random/random_1.png"> |  <img width="1024" alt="waves 10" src="https://github.com/d-pettersson/CODE-SE-15-Advanced-Machine-Learning/blob/master/output/results_random/random_10.png">|<img width="1024" alt="waves 11" src="https://github.com/d-pettersson/CODE-SE-15-Advanced-Machine-Learning/blob/master/output/results_random/random_11.png">|
+|<img width="1024" alt="waves 14" src="https://github.com/d-pettersson/CODE-SE-15-Advanced-Machine-Learning/blob/master/output/results_random/random_14.png">  |  <img width="1024" alt="waves 2" src="https://github.com/d-pettersson/CODE-SE-15-Advanced-Machine-Learning/blob/master/output/results_random/random_2.png">|<img width="1024" alt="waves 3" src="https://github.com/d-pettersson/CODE-SE-15-Advanced-Machine-Learning/blob/master/output/results_random/random_3.png">|
+|<img width="1024" alt="waves 4" src="https://github.com/d-pettersson/CODE-SE-15-Advanced-Machine-Learning/blob/master/output/results_random/random_4.png">  |  <img width="1024" alt="waves 5" src="https://github.com/d-pettersson/CODE-SE-15-Advanced-Machine-Learning/blob/master/output/results_random/random_5.png">|<img width="1024" alt="waves 6" src="https://github.com/d-pettersson/CODE-SE-15-Advanced-Machine-Learning/blob/master/output/results_random/random_6.png">|
 
 ## Installation
 
@@ -46,10 +50,10 @@ ADD IMAGES
 ## Usage
 ### Training
 The training is divided between the usage of [RunwayML](https://runwayml.com/) and Google Colab. The following steps highlight the process used for the training of this particular network:
-1. Download the RunwayML application and create a user account
+1. Download the RunwayML application and create an user account
 2. Prepare the dataset (<i>video selection, cropping and image sequence generation</i>)
 3. Select the StyleGAN2 model in RunwayML and upload the created dataset
-4. Train the model (<i>3000 steps</i>)
+4. Train the model
 5. Download the trained weights
 6. Upload the weights on Google drive
 7. Launch the [Google Colab notebook](https://colab.research.google.com/drive/1xYubx87KiyljnVfsKCd0hsxi6KKgNjhL)
