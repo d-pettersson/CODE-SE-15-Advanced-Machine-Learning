@@ -26,6 +26,7 @@ It currently is able to generate random images, random image sequences and keyfr
 - [CUDA 10.0.130](https://developer.nvidia.com/cuda-10.0-download-archive)
 - [CUDNN 7.6.5](https://developer.nvidia.com/rdp/cudnn-archive)
 - [Anaconda](https://www.anaconda.com/)
+- [OPTIONAL] [FFmpeg](https://www.ffmpeg.org/) for the creation of videos from image sequences
 
 ### Installation steps (windows)
 <i>Note: these steps apply for windows, but they should not differ significantly for linux.</i>
@@ -61,19 +62,17 @@ The training is divided between the usage of [RunwayML](https://runwayml.com/) a
 9. Further training weights will be uploaded to Google drive, ready to be used in the image generation process
 
 ### Metrics
-The metrics are available in the above mentioned Google Colab notebook, and allows us to analyse the fidelity of the generated images.
-
-There are three different metrics currently available in the notebook:
-- The first one is the <b>FID - or Fréchet Inception Distance (FID score)</b>. It is used to determine visual similarity between two datasets of images. The FID score for this model shows us the disparity between our dataset and 'reality' represented by the 'inception_v3' model. We can assume that the score would lower with an augmentation of training time. The current score is <b>23.1470</b>.
-
-- The second metric is the <b>PPL or Perceptual Path Length</b>. Meaning that it measures the difference between consecutive images when interpolating between two random inputs. The lower the value, the more perceptually smooth the latent space is. The current score is <b>71.5810</b>.
-
-- The last metric is <b>Precision and Recall</b>. Precision is the ability of a classification model to identify only the relevant data points. Recall is the ability of a model to find all the relevant cases within a dataset. The current scores are
+Some metrics are available in the above mentioned Google Colab notebook, and allows us to analyze the fidelity of the generated images. A more detailed explanation is available in the main notebook from this repo.
 
 For further analysis, Nvidia provides additional evaluation metrics: [link](https://github.com/NVlabs/stylegan2#evaluation-metrics)
 
 ### Generation
 The main notebook can be used to synthetize various sequences of images. Either random individual images, random keyframed sequences and keyframed sequences with pre-defined keyframes. This can be found under the <b>'StyleGAN2'</b> section.
+
+Each export of image types are limited to a certain amount of images relative to their type (results_random_sequence, results_keyframe_multi_sequence, results_keyframe_sequence, results_random). Move the results in these various folder to another folder to be able to generate new images. The number of images is defined by the ``number_of_frames`` variable.
+For the ``results_keyframe_multi_sequence``, the number of images is defined by ``number_of_frames x number of keyframes``.
+
+To create videos out of these images sequences, it is recommended to install [ffmpeg](https://www.ffmpeg.org/) - the command used is included in the notebook and can be used separately in a command line.
 
 ## Roadmap
 This being the first explorative part of the installation, a roadmap for the following steps is defined here:
