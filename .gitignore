@@ -50,7 +50,7 @@ geckodriver.log
 src/stylegan2/
 
 // ignore pngs in output folder
-output/results_keyframe_multi_sequence/*.png
-output/results_keyframe_sequence/*.png
-output/results_random_sequence/*.png
+//output/results_keyframe_multi_sequence/*.png
+//output/results_keyframe_sequence/*.png
+//output/results_random_sequence/*.png
 
