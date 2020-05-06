@@ -74,6 +74,8 @@ For the ``results_keyframe_multi_sequence``, the number of images is defined by 
 
 To create videos out of these images sequences, it is recommended to install [ffmpeg](https://www.ffmpeg.org/) - the command used is included in the notebook and can be used separately in a command line.
 
+Examples videos can be found under ``output/videos``.
+
 ## Roadmap
 This being the first explorative part of the installation, a roadmap for the following steps is defined here:
 - Creating a 'video editing' workflow for the simple generation and editing of consecutive image sequences ([<i>inspired by Memo Atken's article on Latent Spaces Exploration)</i>](https://medium.com/@memoakten/deep-meditations-meaningful-exploration-of-ones-inner-self-576aab2f3894)
